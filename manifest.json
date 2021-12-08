@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "description": "pwa-test",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "pwa-test",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "pwa-test",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
