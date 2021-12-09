@@ -48,7 +48,7 @@
       "sizes": "1240x1240"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://ipimfmw.github.io/pwa-test/",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
