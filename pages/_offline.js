@@ -1,5 +1,5 @@
 const OfflinePage = () => {
-  <div>You are offline. Please connect to the internet</div>;
+  return <div>You are offline. Please connect to the internet</div>;
 };
 
 export default OfflinePage;
