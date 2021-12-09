@@ -3,47 +3,47 @@
   "name": "mini pwa for alarm test",
   "icons": [
     {
-      "src": "/image/71.png",
+      "src": "image/71.png",
       "type": "image/png",
       "sizes": "71x71"
     },
     {
-      "src": "/image/89.png",
+      "src": "image/89.png",
       "type": "image/png",
       "sizes": "89x89"
     },
     {
-      "src": "/image/107.png",
+      "src": "image/107.png",
       "type": "image/png",
       "sizes": "107x107"
     },
     {
-      "src": "/image/142.png",
+      "src": "image/142.png",
       "type": "image/png",
       "sizes": "142x142"
     },
     {
-      "src": "/image/150.png",
+      "src": "image/150.png",
       "type": "image/png",
       "sizes": "150x150"
     },
     {
-      "src": "/image/188.png",
+      "src": "image/188.png",
       "type": "image/png",
       "sizes": "188x188"
     },
     {
-      "src": "/image/284.png",
+      "src": "image/284.png",
       "type": "image/png",
       "sizes": "284x284"
     },
     {
-      "src": "/image/620.png",
+      "src": "image/620.png",
       "type": "image/png",
       "sizes": "620x620"
     },
     {
-      "src": "/image/1240.png",
+      "src": "image/1240.png",
       "type": "image/png",
       "sizes": "1240x1240"
     }
