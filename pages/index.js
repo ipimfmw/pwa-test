@@ -8,7 +8,13 @@ const Home = () => {
         <title>NFT-mobilefront</title>
         <link rel="manifest" href="manifest.json" />
         <link rel="apple-touch-icon" href="image/89.png" />
-        <Script src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate" />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"
+          onLoad={() => {
+            const el = document.createElement("pwa-update");
+            document.body.appendChild(el);
+          }}
+        />
       </Head>
       Hi im next! and this is deploying test!22222
     </div>
