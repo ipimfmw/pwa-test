@@ -1,20 +1,31 @@
+import { useEffect } from "react";
 import Head from "next/head";
-import Script from "next/script";
 
 const Home = () => {
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/pwabuilder-sw.js").then(
+          function (registration) {
+            console.log(
+              "Service Worker registration successful with scope: ",
+              registration.scope
+            );
+          },
+          function (err) {
+            console.log("Service Worker registration failed: ", err);
+          }
+        );
+      });
+    }
+  }, []);
+
   return (
     <div>
       <Head>
         <title>NFT-mobilefront</title>
         <link rel="manifest" href="manifest.json" />
         <link rel="apple-touch-icon" href="image/89.png" />
-        <Script
-          src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"
-          onLoad={() => {
-            const el = document.createElement("pwa-update");
-            document.body.appendChild(el);
-          }}
-        />
       </Head>
       Hi im next! and this is deploying test!22222
     </div>
